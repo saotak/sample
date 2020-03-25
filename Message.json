@@ -1,0 +1,11 @@
+{
+  "ids": {
+    "Message": 3
+  },
+  "models": {
+    "Message": {
+      "1": "{\"title\":\"Test\",\"body\":\"This is a test message\",\"ReceivedDate\":\"2020-03-25T13:32:55.561Z\",\"additionalProp1\":{},\"MessageID\":1}",
+      "2": "{\"title\":\"Test\",\"body\":\"This is a test message\",\"ReceivedDate\":\"2020-03-30T06:24:10.000Z\",\"additionalProp1\":{},\"MessageID\":2}"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Message",
+  "connector": "memory",
+  "localStorage": "",
+  "file": "./Message.json"
+}
