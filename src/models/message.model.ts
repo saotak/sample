@@ -28,9 +28,15 @@ export class Message extends Entity {
   })
   ReceivedDate?: string;
 
+  @property({
+    type: 'date',
+  })
+  DummyDate?: string;
 
 
-  // Define well-known properties here
+
+
+  // Define well-known properties here.
 
   // Indexer property to allow additional data
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
