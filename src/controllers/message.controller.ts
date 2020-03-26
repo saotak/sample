@@ -49,8 +49,9 @@ export class MessageController {
   })
   async findMessageByReceivedDate(
     @param.path.string('ReceivedDate') creationDate: Date,
-    @param.query.object('filter', getFilterSchemaFor(Message)) filter?: Filter<Message>,
-    // @param.filter(Message) filter?: Filter<Message>,
+    // @param.query.object('filter', getFilterSchemaFor(Message)) filter?: Filter<Message>,
+    // @param.header.date('createDate'),
+    @param.filter(Message) filter?: Filter<Message>,
   ): Promise<Message[]> {
     let whereBuilder: WhereBuilder = new WhereBuilder();
     whereBuilder.eq('createDate', creationDate);
